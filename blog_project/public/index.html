@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create a New Blog</h1>
+    <form id="blog-form">
+      <label >Blog Title:</label><br>
+      <input type="text" id="title" name="title" required><br><br>
+      <label >Blog Author:</label><br>
+      <input type="text" id="author" name="author" required><br><br>
+      <label >Blog Content:</label><br>
+      <textarea id="content" name="content" required></textarea><br><br>
+      <button type="submit">Submit</button>
+    </form>
+    
+  </div>
+  <div id="blogs"></div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
